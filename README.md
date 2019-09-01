@@ -4,13 +4,13 @@ We implement Yang et al, " A Level-based Learning Swarm Optimizer For Large-scal
 
 Steps to run the serial code:
 
-(1) gcc -o serial code serial code.c -lm 
-(2) .\serial 
-(3) Enter the swarm size, level size and learning parameter 
-
+(1) gcc -o serial code serial code.c -lm </br>
+(2) .\serial </br>
+(3) Enter the swarm size, level size and learning parameter </br>
+</br>
 Steps to run the parallel code:
 
-(1) export OMP NUM THREADS=4 
-(2) gcc -fopenmp -o parallel parallel final openmp.c -lm 
-(3) .\parallel 
-(4) Enter the swarm size, level size and learning parameter 
+(1) export OMP NUM THREADS=4 </br>
+(2) gcc -fopenmp -o parallel parallel final openmp.c -lm </br>
+(3) .\parallel </br>
+(4) Enter the swarm size, level size and learning parameter </br>
