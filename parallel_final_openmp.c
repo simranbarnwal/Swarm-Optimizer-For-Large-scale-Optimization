@@ -5,6 +5,7 @@
 #include <omp.h>
 float *array;
 
+// global variables
 float fitness(float x[3], float v[3]);
 int find_minimum(float arr[], int n);
 int cmp(const void *a, const void *b);
